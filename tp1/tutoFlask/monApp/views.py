@@ -8,4 +8,8 @@ def about():
     return app.config['ABOUT']
 if __name__== "__main__" :
     app.run( )
-
+@app.route('/contact')
+def about():
+    return app.config['CONTACT']
+if __name__== "__main__" :
+    app.run( )
