@@ -9,7 +9,7 @@ def about():
 if __name__== "__main__" :
     app.run( )
 @app.route('/contact')
-def about():
+def contact():
     return app.config['CONTACT']
 if __name__== "__main__" :
     app.run( )
